@@ -1,0 +1,47 @@
+p {
+    color: blue;
+    text-align: center;
+}
+
+/*Seletor de ID, se faz atraves do comando # (cerquilha)*/
+
+#meuParagrafo {
+    color: lime;
+}
+
+/*Seletor de classe, se faz atraves do comando . (ponto)*/
+.destaque {
+    color: darkgoldenrod;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+}
+
+/* = significa procura exatamente o que está entre aspas*/
+[type = "button"] {
+    color: blue;
+}
+/* ^= significa procura o que inicia entre aspas*/
+[class ^= "btn"] {
+    border: 10px solid greenyellow;
+}
+/* $= significa procura o que termina entre aspas*/
+[class $= "primary"] {
+    border: 10px solid darkred;
+}
+/* *= procura o que esta entre aspas em qualquer lugar*/
+[class *= "primary"] {
+    border: 10px solid darkred;
+}
+
+.lista {
+    list-style-image: url("http://twiki.org/p/pub/TWiki06x00/SmiliesPlugin/devil.gif");
+}
+
+li {
+    float: left; 
+    width: 120px; 
+    padding-left: 10px;
+}
